@@ -1,0 +1,234 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-12T10:07:29.775Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2716333900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureFile()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "To validate login using invalid username and invalid password",
+        "description": "",
+        "id": "to-validate-the-login-functionallity-using-invalid-credentials;to-validate-login-using-invalid-username-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 217300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.screensShotManual(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 49300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.screensShotAuto(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 131000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterFeatureFile()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1510583600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User must be in facebook login page",
+            "match": {
+              "location": "StepDefinition.user_must_be_in_facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 206389300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter invalid username and invalid password",
+            "match": {
+              "location": "StepDefinition.user_enter_invalid_username_and_invalid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74237400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click login button",
+            "match": {
+              "location": "StepDefinition.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 682100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User must be  in invalid credentials page",
+            "match": {
+              "location": "StepDefinition.user_must_be_in_invalid_credentials_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionallity using invalid credentials",
+    "description": "",
+    "id": "to-validate-the-login-functionallity-using-invalid-credentials",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/LoginFunction.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-12T10:07:34.323Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1450632300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureFile()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To validate forgot password",
+        "description": "",
+        "id": "to-validate-the-forgot-password-functionallity;to-validate-forgot-password",
+        "after": [
+          {
+            "result": {
+              "duration": 51000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.screensShotManual(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 20100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.screensShotAuto(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 82500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterFeatureFile()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2199992500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is in facebook page",
+            "match": {
+              "location": "StepDefinition2.user_is_in_facebook_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1571848700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click Forget password",
+            "match": {
+              "location": "StepDefinition2.user_click_Forget_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 564400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User User must be in find account page",
+            "match": {
+              "location": "StepDefinition2.user_User_must_be_in_find_account_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 196769300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter value in text field and click search",
+            "match": {
+              "location": "StepDefinition2.user_enter_value_in_text_field_and_click_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 631400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User must identify his account",
+            "match": {
+              "location": "StepDefinition2.user_must_identify_his_account()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the forgot password functionallity",
+    "description": "",
+    "id": "to-validate-the-forgot-password-functionallity",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/forget_password.feature",
+    "tags": []
+  }
+]
